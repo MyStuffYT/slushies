@@ -30,5 +30,7 @@ def logo():
     return send_from_directory(os.path.join(app.root_path, 'static'),
                                'logo.png', mimetype='image/png')
 
+@app.route('/menu')
+def menu():
+    return render_template('menu.html')
 
-app.run(host='0.0.0.0', debug=True)

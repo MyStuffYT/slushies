@@ -1,0 +1,60 @@
+@font-face {
+    font-family: funny;
+    src: url("/static/slushyfont.otf") format("opentype");
+}
+
+body {
+    margin:0;
+    background-color: rgb(255, 255, 255);
+}
+
+#placeholderthing {
+    height: 10vh;
+}
+
+#logo {
+    max-height: 100%;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#slushymenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#menuimg {
+    width:50vh;
+    float:left;
+}
+
+#menuname {
+    font-size:xxx-large;
+    font-family:funny;
+}
+#menudesc {
+    font-size:large;
+    font-family:funny;
+}
+
+#topbar {
+    position:fixed;
+    display: flex;
+    background-color: rgb(174, 255, 255);
+    height:10%;
+    width:100%;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    place-items: center;
+}

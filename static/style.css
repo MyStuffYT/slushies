@@ -1,0 +1,54 @@
+@font-face {
+    font-family: funny;
+    src: url("/static/slushyfont.otf") format("opentype");
+}
+
+body {
+    margin:0;
+    background-color: rgb(0, 0, 0);
+}
+
+#placeholderthing {
+    height: 10vh;
+}
+
+#topbar {
+    position:fixed;
+    display: flex;
+    background-color: rgb(174, 255, 255);
+    height:10%;
+    width:100%;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    place-items: center;
+}
+
+#latestoffer {
+    margin: 0;
+    height: 300px;
+    background-color: rgb(100, 206, 255);
+    font-family: funny;
+    text-align: center;
+    overflow: hidden;
+    background: #4fffff;
+    background: linear-gradient(180deg, rgba(79, 255, 255, 1) 0%, rgba(66, 161, 255, 1) 100%);
+}
+
+#dealfont {
+    color: white;
+    margin: 0;
+    padding-top: 2vh;
+    font-size:xxx-large;
+}
+#slushym {
+    max-height:150%;
+}
+
+#logo {
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}

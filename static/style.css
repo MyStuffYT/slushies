@@ -5,11 +5,23 @@
 
 body {
     margin:0;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 183, 255);
 }
 
 #placeholderthing {
     height: 10vh;
+}
+
+#menu {
+    color:white;
+    font-size:xx-large;
+    text-align: center;
+    font-family: funny;
+}
+
+#menuprev {
+    margin:0;
+    max-height: 40vh;
 }
 
 #topbar {
@@ -25,6 +37,8 @@ body {
     align-items: center;
     place-items: center;
 }
+
+
 
 #latestoffer {
     margin: 0;
@@ -42,6 +56,11 @@ body {
     margin: 0;
     padding-top: 2vh;
     font-size:xxx-large;
+}
+#dealfonts {
+    color: white;
+    margin:0;
+    font-size:small
 }
 #slushym {
     max-height:150%;

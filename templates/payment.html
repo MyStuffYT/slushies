@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style3.css') }}">
+    <title>Buy the slushie.</title>
+</head>
+<body>
+    <div id="topbar"><img id="logo" src="{{ url_for('static', filename='logo.png') }}"></div>
+    <div id="placeholderthing"></div>
+    <div id="someloadingthing">
+    <div class="loader"></div>
+    <p id="paymenttext">Payment processing...</p>
+    </div>
+    <script src="{{ url_for('static', filename='payment.js') }}"></script>
+</body>
+</html>

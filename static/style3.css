@@ -1,0 +1,60 @@
+@font-face {
+    font-family: funny;
+    src: url("/static/slushyfont.otf") format("opentype");
+}
+
+body {
+    margin:0;
+    background-color: rgb(255, 255, 255);
+}
+
+#placeholderthing {
+    height: 10vh;
+}
+
+#logo {
+    max-height: 100%;
+}
+
+#topbar {
+    position:fixed;
+    display: flex;
+    background-color: rgb(174, 255, 255);
+    height:10%;
+    width:100%;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    place-items: center;
+}
+
+#paymenttext {
+    font-family: funny;
+    font-size: xxx-large;
+    color:black;
+    padding-left: 2.5%;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #00db30;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#someloadingthing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+}

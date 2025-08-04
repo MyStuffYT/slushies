@@ -42,5 +42,5 @@ def buy():
 
 @app.route("/catfact")
 def catfact():
-    catfactdict = requests.get("https://catfact.ninja/fact?max_length=45").json()
+    catfactdict = requests.get("https://catfact.ninja/fact?max_length=75").json()
     return catfactdict["fact"]
